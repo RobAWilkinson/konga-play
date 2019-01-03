@@ -32,7 +32,7 @@ services:
       NODE_ENV: production
       PORT: 1337
       DB_ADAPTER: postgres
-      DB_URI: postgresql://kong@kong-database:5432/konga
+      DB_URI: postgresql://kong@kong-database:5432/kong
       KONGA_HOOK_TIMEOUT: 120000
       KONGA_LOG_LEVEL: warn
       TOKEN_SECRET: random_secret
